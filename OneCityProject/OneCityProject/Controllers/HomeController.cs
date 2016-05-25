@@ -13,9 +13,9 @@ namespace OneCityProject.Controllers
 			return View();
 		}
 
-		public ActionResult About()
+		public ActionResult Post()
 		{
-			ViewBag.Message = "Your application description page.";
+			ViewBag.Message = "Posting a problem.";
 
 			return View();
 		}
